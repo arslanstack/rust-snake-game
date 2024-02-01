@@ -10,8 +10,13 @@ To play the game, follow these simple steps:
 
 1. **Install Rust:**
    If you haven't installed the Rust development environment yet, you can do so by following the instructions [here](https://www.rust-lang.org/tools/install).
+2. **Install Dependencies:**
+   After installing Rust, navigate to the project directory in your terminal and install the required dependencies. You can do this by running:
+   
+   ```bash
+   cargo build
 
-2. **Run the Game:**
+3. **Run the Game:**
    Open your terminal and navigate to the project directory. Run the following command:
 
    ```bash
