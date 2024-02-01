@@ -16,7 +16,7 @@ use crate::draw::to_coord_u32;
 
 const BACK_COLOR: Color = [0.56, 0.8, 0.9, 1.0 ]; //RGB (142, 202, 230) sky blue color
 fn main() {
-    let (width, height) = (30, 30);
+    let (width, height) = (20, 20);
 
     let mut window: PistonWindow =
         WindowSettings::new("Snake", [to_coord_u32(width), to_coord_u32(height)])

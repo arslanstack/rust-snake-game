@@ -4,8 +4,7 @@ use piston_window::types::Color;
 use rand::{thread_rng, Rng};
 
 use crate::snake::{Direction, Snake};
-use crate::draw::{self, draw_block, draw_rectangle};
-
+use crate::draw::{draw_block, draw_rectangle};
 
 const FOOD_COLOR: Color = [1.0, 0.40, 0.00, 1.0]; //RGB (255, 103, 0) orange
 const BORDER_COLOR: Color = [0.00, 0.00, 0.00, 1.0]; //Black
